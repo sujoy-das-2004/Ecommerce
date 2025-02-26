@@ -14,7 +14,7 @@ const PORT = 5000;
 const app = express();
 const appRoute = express.Router();
 
-appRoute.get("/", (req, res) => {
+appRoute.get("/api", (req, res) => {
   res.send("helloooo");
 });
 app.use(bodyParser.json());
