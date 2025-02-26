@@ -1,5 +1,5 @@
 const UserModel = require("../models/userModel.js");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 
 const userController = {
   createAccount: async (req, res) => {
