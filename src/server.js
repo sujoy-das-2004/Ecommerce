@@ -30,7 +30,7 @@ app.use("/api/order",orderRoute)
 
 
 
-mongoose.connect("mongodb://localhost:27017/ecom_interview").then(()=>{
+mongoose.connect("mongodb+srv://sujoy:Sujoydas2004@cluster0.70bjc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0").then(()=>{
   console.log("DataBase connect")
 })
 
